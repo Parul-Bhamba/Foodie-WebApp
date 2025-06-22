@@ -8,9 +8,7 @@
 
 - 🔍 Search and sort restaurants and items
 - 🛒 Add to cart, place orders, and simulate payments
-- 🔄 Real-time order status tracking
 - 📜 Order history for customers and owners
-- 📢 Owner notifications for new orders
 - 🛠️ Admin panel for monitoring and management
 - 🔐 Secure JWT-based login with role-based access
 
@@ -37,8 +35,8 @@
 ## 🧩 User Roles
 
 - **Public Users**: Browse restaurants and menus
-- **Customers**: Add to cart, place orders, track delivery, view order history
-- **Owners**: Manage restaurants, menu items, and incoming orders
+- **Customers**: Add to cart, place orders, view order history
+- **Owners**: Manage restaurants, menu items
 - **Admins**: Monitor and manage platform activity
 
 ---
