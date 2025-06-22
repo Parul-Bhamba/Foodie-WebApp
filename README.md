@@ -1,16 +1,29 @@
 # 🍽️ Foodie-WebApp
 
-**Foodie-WebApp** is a full-stack food ordering platform built with **Spring Boot**, **React.js**, **MySQL**, and **MongoDB**. It provides a seamless experience with role-based access for public users, customers, restaurant owners, and admins.
+**Foodie-WebApp** is a full-stack food ordering platform developed using **Spring Boot**, **React.js**, **MySQL**, and **MongoDB**. It offers a seamless and secure experience through role-based access for public users, customers, restaurant owners, and admins.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Search and sort restaurants and items
-- 🛒 Add to cart, place orders, and simulate payments
-- 📜 Order history for customers and owners
-- 🛠️ Admin panel for monitoring and management
-- 🔐 Secure JWT-based login with role-based access
+- 🔍 **Public Portal**: View restaurants, search and sort by name or cuisine
+- 🔐 **Login/Signup**: Role-based access control for customers, owners, and admins
+- 🛒 **Customer Portal**:
+  - Search/sort restaurants and menu items
+  - Add items to the cart
+  - Place orders and simulate payment (Razorpay dummy gateway)
+  - View order history
+- 🧑‍🍳 **Owner Portal**:
+  - Add and manage restaurants
+  - Edit restaurant and menu item details
+  - Track and update orders
+- 🛠️ **Admin Panel**:
+  - View and manage users and owners
+  - Enable/disable restaurants
+  - Approve/reject owner registration requests
+- 🔐 **Security**:
+  - JWT-based authentication
+  - Role-based authorization
 
 ---
 
@@ -27,24 +40,16 @@
 - Java
 - Spring Boot
 - Spring Security (JWT)
-- MySQL (Authentication, user data)
-- MongoDB (Restaurant, orders, cart)
+- MySQL (for authentication and user data)
+- MongoDB (for restaurants, cart, and orders)
 
 ---
 
 ## 🧩 User Roles
 
-- **Public Users**: Browse restaurants and menus
-- **Customers**: Add to cart, place orders, view order history
-- **Owners**: Manage restaurants, menu items
-- **Admins**: Monitor and manage platform activity
+- **Public Users**: View restaurants and menu items
+- **Customers**: Browse, search, order food, and view order history
+- **Owners**: Manage restaurants and orders
+- **Admins**: Oversee platform activities, manage users and content
 
 ---
-
-## ⚙️ Setup Instructions
-
-### 🔁 Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Foodie-WebApp.git
-cd Foodie-WebApp
